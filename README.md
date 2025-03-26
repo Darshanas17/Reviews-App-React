@@ -24,7 +24,7 @@ A simple and interactive **Reviews App** built using React.js, where users can n
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/reviews-app.git
+   git clone https://github.com/Darshanas17/Reviews-App-React.git
    cd reviews-app
    ```
 2. Install dependencies:
