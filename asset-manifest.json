@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Reviews-App-React/static/css/main.47bac035.css",
+    "main.js": "/Reviews-App-React/static/js/main.5cf07a0d.js",
+    "static/js/453.7322922b.chunk.js": "/Reviews-App-React/static/js/453.7322922b.chunk.js",
+    "index.html": "/Reviews-App-React/index.html",
+    "main.47bac035.css.map": "/Reviews-App-React/static/css/main.47bac035.css.map",
+    "main.5cf07a0d.js.map": "/Reviews-App-React/static/js/main.5cf07a0d.js.map",
+    "453.7322922b.chunk.js.map": "/Reviews-App-React/static/js/453.7322922b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47bac035.css",
+    "static/js/main.5cf07a0d.js"
+  ]
+}
