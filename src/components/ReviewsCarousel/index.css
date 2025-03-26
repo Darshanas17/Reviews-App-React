@@ -1,0 +1,122 @@
+.bg-cont {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/reviews-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 700px;
+}
+
+/* Ensures row layout on all screen sizes */
+.review-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.review-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.head {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+}
+
+.username {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.company-name {
+  color: #f8f8f8;
+  font-size: 16px;
+}
+
+.desc {
+  color: #e6e6e6;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 400px;
+}
+
+.arrow-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.arrow-button:hover {
+  transform: scale(1.1);
+}
+
+.arrow-img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Keep arrows in a row layout on all screen sizes */
+@media screen and (max-width: 768px) {
+  .cont {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .arrow-img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .profile-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .head {
+    font-size: 20px;
+  }
+
+  .username {
+    font-size: 16px;
+  }
+
+  .company-name,
+  .desc {
+    font-size: 14px;
+  }
+}
